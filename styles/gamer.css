@@ -114,6 +114,12 @@ nav {
     border-radius: 48px;
     border: none;
     background: #FF42A5;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    color: #fff;
+    font-size: 20px;
+
 }
 
 .go-rogue {
@@ -121,6 +127,9 @@ nav {
     padding: 21px 40px;
     border-radius: 48px;
     background: #4EC5F7;
+    color: #fff;
+    font-size: 20px;
+
 }
 
 /* SCECOND SECTION STARTS  */
@@ -160,6 +169,19 @@ nav {
     font-size: 20px;
 }
 
+/* THIRD SECTION */
+.cards-container{
+    margin: 100px 200px;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
 /* FOURTH SECTION STARTS */
 
 .container-three {
@@ -190,12 +212,7 @@ nav {
 
 .options{
     background:rgba(255, 66, 165, 0.03);
-    display: flex;
-
-    
-
-    
-    
+    display: flex;   
 }
 
 .primary-icon-button{
@@ -206,6 +223,9 @@ nav {
     border-radius: 80px;
     background-color: #FFF;
     border: none;
+    margin: 200px 0px;
+    padding: 10px 10px;
+   
 }
 .primary-icon-button:hover {
     border: solid #FF42A5;
@@ -214,8 +234,34 @@ nav {
     color: #FF42A5;
 }
 
+/* FOOTER SECTION */
 
+footer{
+    background: #29223b;
+    color: #fff;
+    margin: 50px 50px;
+    padding: 20px 20px;
+}
+.footer ul{
+    list-style: none;
+}
 
+.title{
+    display: flex;
+    margin-left:50% ;
+    gap: 5%;
+}
+
+.footer-2 ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer-2 p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
 
 
