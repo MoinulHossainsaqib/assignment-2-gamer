@@ -1,0 +1,58 @@
+/* SHARED FONT STYLES AND COMMON COLORS */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-g-col{
+    color: #FF42A5;
+}
+
+/* NAV SECTION */
+
+nav{
+    align-items: center;
+    display: flex;
+}
+.logo{
+    margin-top: 45px;
+}
+.logo-title{
+  display: grid;
+  grid-template-columns:100px 200px;
+  margin-left: 200px;
+}
+
+.text ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 700px;
+    gap: 100px;
+    
+}
+.text a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.gamer{
+    font-size: 45px;
+    color: #0B0223;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
