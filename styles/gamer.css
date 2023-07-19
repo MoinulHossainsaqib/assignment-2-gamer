@@ -29,6 +29,16 @@
     line-height: 30px;
 }
 
+.primary-option-font {
+    color: #0B0223;
+    font-size: 20px;
+   
+}
+.primary-button-img{
+    display: inline-block;
+    margin-right: 5px;
+}
+
 /* NAV SECTION */
 
 nav {
@@ -161,18 +171,49 @@ nav {
 }
 
 .play-game-tit-dis {
-   text-align: left;
+    text-align: left;
 }
-.big-img{
+
+.big-img {
     background: 100%;
     position: absolute;
-    
+
 }
-.small-img{
+
+.small-img {
     position: relative;
     margin-top: 450px;
     margin-left: 540px;
 }
+
+/* FIFTH SECTION STARTS */
+
+.options{
+    background:rgba(255, 66, 165, 0.03);
+    display: flex;
+
+    
+
+    
+    
+}
+
+.primary-icon-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #FFF;
+    border: none;
+}
+.primary-icon-button:hover {
+    border: solid #FF42A5;
+}
+.primary-option-font:hover{
+    color: #FF42A5;
+}
+
 
 
 
