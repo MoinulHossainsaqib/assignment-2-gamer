@@ -6,39 +6,37 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
 .primary-g-col {
     color: #FF42A5;
 }
-
 .primary-color-title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .primary-title {
     color: #0B0223;
     font-size: 48px;
     line-height: 60px;
 }
-
 .primary-description {
     color: #534C64;
     font-size: 18px;
     line-height: 30px;
 }
-
 .primary-option-font {
     color: #0B0223;
     font-size: 20px;
 
 }
-
 .primary-button-img {
     display: inline-block;
     margin-right: 5px;
 }
+
+
 
 /* NAV SECTION */
 
@@ -48,11 +46,9 @@ nav {
     height: auto;
     width: auto;
 }
-
 .logo {
     margin-top: 45px;
 }
-
 .logo-title {
     display: grid;
     grid-template-columns: 100px 200px;
@@ -60,9 +56,7 @@ nav {
 }
 .nav-btn{
    
-
 }
-
 .text ul {
     display: flex;
     list-style: none;
@@ -71,16 +65,16 @@ nav {
     gap: 100px;
 
 }
-
 .text a {
     text-decoration: none;
     color: #3C354F;
 }
-
 .gamer {
     font-size: 45px;
     color: #0B0223;
 }
+
+
 
 /* FIRST SECTION STRATS */
 
@@ -91,7 +85,6 @@ nav {
     grid-template-columns: 1000px 40px;
 
 }
-
 .goat-container {
     align-items: center;
     background-image: url('../images/Group\ 14.png');
@@ -100,12 +93,10 @@ nav {
 
 
 }
-
 .title-1 {
     color: #0B0223;
     font-size: 48px;
 }
-
 .title-2 {
     font-size: 95px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -113,7 +104,6 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .sign-in {
     padding: 21px 40px;
     border-radius: 48px;
@@ -126,7 +116,6 @@ nav {
     font-size: 20px;
 
 }
-
 .go-rogue {
     border: none;
     padding: 21px 40px;
@@ -134,8 +123,9 @@ nav {
     background: #4EC5F7;
     color: #fff;
     font-size: 20px;
-
 }
+
+
 
 /* SCECOND SECTION STARTS  */
 
@@ -145,25 +135,20 @@ nav {
     display: flex;
     align-items: center;
     padding: 0 50px;
-
 }
-
 .text-content {
     text-align: right;
 }
-
 .our-purpose {
     color: #534C64;
     font-size: 24px;
     line-height: 45px;
 }
-
 .unleash {
     color: #534C64;
     font-size: 32px;
     line-height: 45px;
 }
-
 .know-more-btn {
     padding: 21px 40px;
     gap: 10px;
@@ -174,18 +159,21 @@ nav {
     font-size: 20px;
 }
 
+
+
 /* THIRD SECTION */
 .cards-container {
     margin: 100px 200px;
     padding: 100px 100px;
     text-align: center;
 }
-
 .cards {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
+
+
 
 /* FOURTH SECTION STARTS */
 
@@ -196,22 +184,20 @@ nav {
     justify-content: space-between;
     padding: 0 250px;
 }
-
 .play-game-tit-dis {
     text-align: left;
 }
-
 .big-img {
     background: 100%;
     position: absolute;
-
 }
-
 .small-img {
     position: relative;
     margin-top: 450px;
     margin-left: 540px;
 }
+
+
 
 /* FIFTH SECTION STARTS */
 
@@ -219,7 +205,6 @@ nav {
     background: rgba(255, 66, 165, 0.03);
     display: flex;
 }
-
 .primary-icon-button {
     display: flex;
     align-items: center;
@@ -232,14 +217,14 @@ nav {
     padding: 10px 10px;
 
 }
-
 .primary-icon-button:hover {
     border: solid #FF42A5;
 }
-
 .primary-option-font:hover {
     color: #FF42A5;
 }
+
+
 
 /* FOOTER SECTION */
 
@@ -259,7 +244,6 @@ footer {
 }
 .footer-container{
     
-
 }
 .footer-links{
     color: #FFF;
@@ -290,24 +274,37 @@ footer {
 
 
 
-
-
 /* MEDIA QUERY */
+
+/* MOBILE RESPONSIVE */
 
 @media screen and (max-width:576px) {
     .banner {
-        grid-template-columns: 1fr;
-        padding: auto;
-
+        grid-template-columns: repeat(1,2fr);
+        
     }
-
-    .text {
+    .text ul{
+        display: flex;
+        grid-template-columns: repeat(1,3fr);
+    }
+    nav{
         flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
     }
-
-    nav,
-    .text {
-        flex-direction: column;
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
-
+    .container-two{
+        grid-template-columns: repeat(1,2fr);
+        padding: 0 50px;
+    }
+    .container-three{
+        display: flex;
+    }
 }
+
+
+
+/* TAB REPONSIVE */
